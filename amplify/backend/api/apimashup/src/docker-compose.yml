@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  python:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    tty: true
+    ports:
+      - 8000:8000
+    secrets:
+      - github-token
+secrets:
+  github-token:
+    file: ../.secret-secret.txt

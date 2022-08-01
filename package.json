@@ -1,0 +1,12 @@
+{
+  "name": "apimashup",
+  "version": "1.0.0",
+  "description": "AWS Amplify apimashup",
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "",
+    "build": ""
+  }
+}
